@@ -3,6 +3,22 @@
 
 
 <%= link_to "retour accueil", home_path%><br>
+    <% if @user.errors.any? %>
+        <div>
+            <% pluralize(@user.errors.count, "Error") %> 
+            <p class ="errors" >This username can't be registered : </p>
+            <ul class ="errors">
+                <% @user.errors.full_messages.each do |msg| %>
+                    <% if msg == "Username is invalid" %>
+                        <li> <%= "Your Name can't contains whitespaces or special characters" %> </li>
+                    <% else %> 
+                    <li><%= msg %></li>
+                    <% end %>
+                <% end %>
+            </ul>
+        </div>
+    <% end %> 
+
 <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 <%= form_tag "/users/login", method: :post do %><br><br><br>
     <p>Renseignez votre nom</p>
