@@ -1,0 +1,15 @@
+
+<h1>Connexion</h1>
+
+
+<%= link_to "retour accueil", home_path%><br>
+<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+<%= form_tag "/users/login", method: :post do %><br><br><br>
+    <p>Renseignez votre nom</p>
+  <input type="text" name="username" /><br><br><br>
+
+  <p>Renseignez votre biograhie</p>
+  <textarea type="text" name="bio" ></textarea><br><br><br>
+  <input type="submit" value="Se connecter" />
+
+<% end %>
