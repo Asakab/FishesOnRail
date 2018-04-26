@@ -1,4 +1,4 @@
-# App Rails
+# Rails, les débuts.
 
 ## Objectifs du jour :
 - Découvrir Rails
@@ -29,17 +29,8 @@ Selon ta version de Ruby, tu devras peut-être aller dans le gemfile pour suppri
 
 Il suffit d'aller dans le dossier de l'app et de lancer sur ton terminal `rails server` avant de te rendre sur ton localhost.
 
-Avant ça, tu devras peut-être faire un `rails db:migrate` sur ton terminal.
+Avant ça, tu devras faire un `rails db:migrate` sur ton terminal.
 
-## Pré-requis
-
-Projet libre de droit et d'accès à la lecture/écriture. 
-Pour pouvoir visualiser le projet, un simple navigateur suffit.
-
-
-```
-Firefox, Safari, Chrome, Internet Explorer 8, ...
-```
 
 ## Construit avec
 
