@@ -3,6 +3,7 @@
 ## Objectifs du jour :
 - Découvrir Rails
 - Créer nos premières apps 
+LES DEUX APPS SONT DANS LE MÊME DOSSIER, LE BACK-END EXISTE BIEN (désolée pour l'agression)
 
 ### Liste des exercices
 
