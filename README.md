@@ -8,7 +8,7 @@
 
 Nous allons te demander de faire une application simple, ce qui va te faire manipuler les liens, et les routes. Et vite fait le controller.
 
-Note : le projet est à faire en pair-programming.</br>
+Note : le projet est à faire en pair-programming. !!! Les deux exercices(je-me-presente et back-end) sont inclus dans la même app -> FIshesOnRail)</br>
 
 Faire un premier site avec backend
 Tu vas faire un site où l'on pourra créer des utilisateurs
